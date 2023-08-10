@@ -1,0 +1,78 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  .search-bar{
+    display: block;
+    margin-top: 110px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0;
+  }
+  .search-bar#search{
+    border: #ffee00;
+    border-radius: 5px;
+  }
+  body.w3-card-4{
+    width:"70%";
+  }
+  .w3-card-4{
+    margin:110px 25px 90px 25px;
+  }
+  .edit_item_btn,.delete_item_btn{
+    margin-top:0px;
+    height:50px;
+    width:50px;
+    border-radius:50px;
+  }
+  table, th, td {
+    margin: 20px 0px 25px 0px;
+    border: 1px solid #e3c65f;
+    border-collapse: collapse;
+  }
+
+  @media screen and (max-width:1200px) {
+    .search-bar{
+      display: block;
+      margin-top: 110px;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-bottom: 0;
+    }
+  }
+ /* Media query for responsive navbar */
+ @media screen and (max-width: 600px) {
+    /* Adjust the breakpoint value (600px) as needed */
+    .search-bar{
+      display: block;
+      margin-top: 200px;
+      margin-left: 15%;
+      margin-right: 15%;
+      margin-bottom: 0;
+    }
+    .search-bar.w3-bar.w3-input{
+      width: 100%;
+    }
+    .search-bar.w3-bar.w3-button{
+      width: 100%;
+    }
+    .w3-card-4{
+      margin: 200px 25px 30px 25px;
+    }
+    .w3-bar.w3-top.w3-theme.w3-border {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .w3-right.w3-padding {
+        margin-top: 10px;
+    }
+    .w3-bar-item.w3-xlarge.w3-button.w3-mobile {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #show_item{
+        overflow-x: auto;
+    }
+}
