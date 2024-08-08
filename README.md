@@ -1,5 +1,6 @@
 # Shows Records Management System
-![Screenshot 2024-03-07 004515](https://github.com/DipamBhuyan/shows.gitub.io/assets/81673711/ea09ea02-bfb4-4af7-93eb-bcc2d7177ece)
+![Screenshot 2024-08-08 182220](https://github.com/user-attachments/assets/ade0f358-a75d-4f77-8ab9-63a8d750cc8d)
+
 A simple prototype development of a website that stores all the records of watch shows.
 ## Table of Contents
 * Introduction
