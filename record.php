@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(isset($_SESSION['rid'])){
-  $dbh = new PDO('mysql:host=localhost;dbname=show_record', 'root', 'password');
+  $dbh = new PDO('mysql:host=sql105.infinityfree.com;dbname=if0_39277762_show_record', 'if0_39277762', 'tau0ROCdr3E');
 ?>
 <!DOCTYPE html>
 <html lang="en">
