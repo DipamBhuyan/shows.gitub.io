@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(isset($_POST['username'])){
-        $dbh = new PDO('mysql:host=localhost;dbname=show_record', 'root', 'password');
+        $dbh = new PDO('mysql:host=sql105.infinityfree.com;dbname=if0_39277762_show_record', 'if0_39277762', 'tau0ROCdr3E');
         $user=$_POST['username'];
         $password=$_POST['password'];
         $stmt = $dbh->prepare("SELECT * FROM admins where username = ? and password = ?");
