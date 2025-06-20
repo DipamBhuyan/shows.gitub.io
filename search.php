@@ -1,9 +1,10 @@
 <?php
 // Establish a database connection
-$servername = "localhost";
-$username = "root";
-$password = "password";
-$dbname = "show_record";
+
+$servername = "sql105.infinityfree.com";
+$username = "if0_39277762";
+$password = "tau0ROCdr3E";
+$dbname = "if0_39277762_show_record";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
