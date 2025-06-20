@@ -34,7 +34,7 @@ A simple prototype development of a website that stores all the records of watch
 ## Shows Records Listing Page
 ![Screenshot 2024-03-07 004537](https://github.com/DipamBhuyan/shows.gitub.io/assets/81673711/7da814be-d943-4507-b746-3fe1321c0463)
 ## Demo
-* [Live Deployement](https://my-records.onrender.com/)
+* [Live Deployement](https://my-records.great-site.net/)
 * Username: admin
 * Password: 2002DipamBhuyan@
 ## Author
